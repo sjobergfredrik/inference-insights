@@ -13,6 +13,9 @@ dist-ssr
 *.local
 .env
 
+# Embeddings (generated - run scripts/prepare-embeddings.py)
+public/data/embeddings.json
+
 # Embeddings cache (large GloVe download)
 scripts/.cache/
 
